@@ -1,0 +1,309 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+
+.display-none {
+  display: none;}
+
+.display-block {
+  display: block;}
+
+
+//** ВЫРАВНИВАНИЕ ТЕКСТА
+
+.text-left {
+  text-align: left;}
+
+.text-right {
+  text-align: right;}
+
+.text-center {
+  text-align: center;}
+
+.text-justify {
+  text-align: justify;}
+
+
+//** ФЛЕКСЫ
+
+.flex-between {
+  justify-content: space-between;}
+
+.flex-around {
+  justify-content: space-around;}
+
+// Префиксы
+.flex-box {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+// Постановка оси
+.direction-column {
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+.direction-row {
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+}
+
+// Выравнивание относительно оси
+.flex-start {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-center {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-end {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+
+//** МАРГИНЫ
+
+// Сверху
+.mt-mr {
+  margin-top: @val_mr;}
+
+.mt-xs {
+  margin-top: @val_xs;}
+
+.mt-sm {
+  margin-top: @val_sm;}
+
+.mt-md {
+  margin-top: @val_md;}
+
+.mt-lg {
+  margin-top: @val_lg;}
+
+.mt-mg {
+  margin-top: @val_mg;}
+
+.mt-mg-s {
+  margin-top: @val_mg_s;}
+
+// Снизу
+.mb-mr {
+  margin-bottom: @val_mr;}
+
+.mb-xs {
+  margin-bottom: @val_xs;}
+
+.mb-sm {
+  margin-bottom: @val_sm;}
+
+.mb-md {
+  margin-bottom: @val_md;}
+
+.mb-lg {
+  margin-bottom: @val_lg;}
+
+.mb-mg {
+  margin-bottom: @val_mg;}
+
+.mb-mg-s {
+  margin-bottom: @val_mg_s;}
+
+// Слева
+.ml-mr {
+  margin-bottom: @val_mr;}
+
+.ml-xs {
+  margin-bottom: @val_xs;}
+
+.ml-sm {
+  margin-bottom: @val_sm;}
+
+.ml-md {
+  margin-bottom: @val_md;}
+
+.ml-lg {
+  margin-bottom: @val_lg;}
+
+.ml-mg {
+  margin-bottom: @val_mg;}
+
+.ml-mg-s {
+  margin-bottom: @val_mg_s;}
+
+// Справа
+.mr-mr {
+  margin-bottom: @val_mr;}
+
+.mr-xs {
+  margin-bottom: @val_xs;}
+
+.mr-sm {
+  margin-bottom: @val_sm;}
+
+.mr-md {
+  margin-bottom: @val_md;}
+
+.mr-lg {
+  margin-bottom: @val_lg;}
+
+.mr-mg {
+  margin-bottom: @val_mg;}
+
+.mr-mg-s {
+  margin-bottom: @val_mg_s;}
+
+
+//** ПАДДИНГИ
+
+// Сверху
+.pt-pr {
+  margin-top: @val_mr;}
+
+.pt-xs {
+  margin-top: @val_xs;}
+
+.pt-sm {
+  margin-top: @val_sm;}
+
+.pt-md {
+  margin-top: @val_md;}
+
+.pt-lg {
+  margin-top: @val_lg;}
+
+.pt-mg {
+  margin-top: @val_mg;}
+
+.pt-mg-s {
+  margin-top: @val_mg_s;}
+
+// Снизу
+.pb-pr {
+  margin-bottom: @val_mr;}
+
+.pb-xs {
+  margin-bottom: @val_xs;}
+
+.pb-sm {
+  margin-bottom: @val_sm;}
+
+.pb-md {
+  margin-bottom: @val_md;}
+
+.pb-lg {
+  margin-bottom: @val_lg;}
+
+.pb-mg {
+  margin-bottom: @val_mg;}
+
+.pb-mg-s {
+  margin-bottom: @val_mg_s;}
+
+// Слева
+.pl-pr {
+  margin-bottom: @val_mr;}
+
+.pl-xs {
+  margin-bottom: @val_xs;}
+
+.pl-sm {
+  margin-bottom: @val_sm;}
+
+.pl-md {
+  margin-bottom: @val_md;}
+
+.pl-lg {
+  margin-bottom: @val_lg;}
+
+.pl-mg {
+  margin-bottom: @val_mg;}
+
+.pl-mg-s {
+  margin-bottom: @val_mg_s;}
+
+// Справа
+.pr-pr {
+  margin-bottom: @val_mr;}
+
+.pr-xs {
+  margin-bottom: @val_xs;}
+
+.pr-sm {
+  margin-bottom: @val_sm;}
+
+.pr-md {
+  margin-bottom: @val_md;}
+
+.pr-lg {
+  margin-bottom: @val_lg;}
+
+.pr-mg {
+  margin-bottom: @val_mg;}
+
+.pr-mg-s {
+  margin-bottom: @val_mg_s;}
+
+
+//** РАЗМЕРЫ ШРИФТОВ
+
+.fz-mr {
+  .fz-mix(@fz_mr);}
+
+.fz-xs {
+  .fz-mix(@fz_xs);}
+
+.fz-sm {
+  .fz-mix(@fz_sm);}
+
+.fz-md {
+  .fz-mix(@fz_md);}
+
+.fz-lg {
+  .fz-mix(@fz_lg);}
+
+.fz-mg {
+  .fz-mix(@fz_mg);}
+
+.fz-mg-s {
+  .fz-mix(@fz_mg_s);}
+
+
+// Миксина
+.fz-mix(@fz: @fz_md) {
+  font-size: @fz;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: @fz;}
+
+
+  //** ПРОСТОЙ ТЕКСТ, СПИСКИ, ССЫЛКИ
+
+  p, b, i, strong {
+    font-size: @fz;}
+
+  p label {
+    font-size: @fz;}
+
+  a:not(.btn) {
+    font-size: @fz;}
+
+  ul {
+    font-size: @fz;
+
+    li a:not(.btn) {
+      font-size: @fz;}
+  }
+}

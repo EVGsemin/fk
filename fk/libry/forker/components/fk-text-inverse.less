@@ -1,0 +1,32 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../../../direct/themes/@{theme}/fonts";
+
+
+.fk-text-inverse {
+  color: @clr__p_inverse;
+
+  h1, h2, h3, h4, h5, h6 { color: @clr__h_inverse; }
+
+
+  //** ПРОСТОЙ ТЕКСТ, СПИСКИ, ССЫЛКИ
+
+  p, b, i, strong { color: @clr__p_inverse; }
+
+  p label { color: @clr__p_inverse; }
+
+  a:not(.btn) {
+    //.link-border-mix(@clr__light);
+    color: @clr__light;
+  }
+
+  ul {
+    color: @clr__p_inverse;
+
+    li a:not(.btn) {
+      //.link-border-mix(@clr__light);
+      color: @clr__light;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../../../direct/themes/@{theme}/fonts";
+
+
+.fk {
+
+  //** ФОРМЫ
+
+  &-form {
+
+    //** ВАРИАЦИИ
+
+    &_linear {
+      input:not(.btn),
+      textarea {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+      }
+
+      &.text-inverse,
+      .text-inverse & {
+        input:not(.btn),
+        textarea {
+          color: @clr__light;
+          .link-border-mix(@clr__light);
+        }
+      }
+    }
+
+    // Растянутые элементы
+    &_justify {
+      p,
+      input,
+      textarea,
+      button {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+
+
+    //** РАЗМЕРЫ
+
+    &_xs {
+      input:not([type="submit"]),
+      input:not([type="checkbox"]),
+      input:not([type="radio"]),
+      textarea,
+      select {
+        font-size: @fz_xs;}
+    }
+
+    &_sm {
+      input:not([type="submit"]),
+      input:not([type="checkbox"]),
+      input:not([type="radio"]),
+      textarea,
+      select {
+        font-size: @fz_sm;}
+    }
+
+    &_md {
+      input:not([type="submit"]),
+      input:not([type="checkbox"]),
+      input:not([type="radio"]),
+      textarea,
+      select {
+        font-size: @fz_md;}
+    }
+
+    &_lg {
+      input:not([type="submit"]),
+      input:not([type="checkbox"]),
+      input:not([type="radio"]),
+      textarea,
+      select {
+        font-size: @fz_lg;}
+    }
+
+    &_mg {
+      input:not([type="submit"]),
+      input:not([type="checkbox"]),
+      input:not([type="radio"]),
+      textarea,
+      select {
+        font-size: @fz_mg;}
+    }
+  }
+
+}

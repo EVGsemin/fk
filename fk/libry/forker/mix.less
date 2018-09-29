@@ -1,0 +1,67 @@
+@import "../../direct/var";
+@import "../../direct/themes/@{theme}/var";
+
+
+.transition(@time: .2s) {
+  -webkit-transition: all @time;
+  -ms-transition: all @time;
+  -moz-transition: all @time;
+  -o-transition: all @time;
+  transition: all @time;
+}
+
+.box-shadow(
+  @width: 0px;
+  @height: 2px;
+  @blur: 5px;
+  @color: fade(@clr__dark, 40%) ) {
+
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.rotate(@deg: 0deg) {
+  -webkit-transform: rotate(@deg);
+  -moz-transform: rotate(@deg);
+  -ms-transform: rotate(@deg);
+  -o-transform: rotate(@deg);
+  transform: rotate(@deg);
+}
+
+.bg-gr (
+  @deg: 0deg;
+  @clr_prim: @clr__gr_prim;
+  @clr_sec: @clr__gr_sec;
+  @space: 0%;
+  @sharp: 100%;) {
+
+  background: @clr_sec;
+  background: -moz-linear-gradient(@deg, @clr_sec @space, @clr_prim @sharp);
+  background: -webkit-linear-gradient(@deg, @clr_sec @space, @clr_prim @sharp);
+  background: linear-gradient(@deg, @clr_sec @space, @clr_prim @sharp);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@clr_sec, endColorstr=@clr_prim,GradientType=1 );
+}
+
+.row-between(@align: center) {
+  .flex-box;
+  .flex-between;
+  align-items: @align;
+}
+
+.font(
+  @font;
+  @url;
+  @weight;
+  @style) {
+
+  font-family: '@{font}';
+  src:
+    url('fk/assets/fonts/@{font}/@{url}/@{url}.woff2') format('woff2'),
+    url('fk/assets/fonts/@{font}/@{url}/@{url}.woff') format('woff'),
+    url('fk/assets/fonts/@{font}/@{url}/@{url}.eot'),
+    url('fk/assets/fonts/@{font}/@{url}/@{url}.ttf') format('truetype'),
+    url('fk/assets/fonts/@{font}/@{url}/@{url}.svg') format('svg');
+  font-weight: @weight;
+  font-style: @style;
+}

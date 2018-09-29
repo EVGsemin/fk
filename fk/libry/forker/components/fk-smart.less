@@ -1,0 +1,138 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../components/fk-center";
+
+
+.fk {
+
+  //** СМАРТ
+
+  &-smart {
+    @smart_sm: 280px;
+    @smart_md: 450px;
+    @smart_lg: 720px;
+
+    .left-box,
+    .right-box {
+      .fk-center-y;
+
+      padding-top: @val_lg;
+      padding-bottom: @val_lg;
+      box-sizing: border-box;
+
+      background-repeat: no-repeat;
+    }
+
+    @media @media_sm_before {
+      .left-box,
+      .right-box {
+        padding-top: @val_md;
+        padding-bottom: @val_md;
+
+        min-height: @smart_sm - @val_md;
+
+        background-size: 100% auto;
+        background-position: center top;
+      }
+
+      .left-box {
+        background-position: center bottom;}
+
+      .right-box {
+        background-position: center top;}
+    }
+
+    @media @media_sm_after {
+      .left-box,
+      .right-box {
+        background-size: auto 80%;}
+
+      .left-box {
+        background-position: right center;}
+
+      .right-box {
+        background-position: left center;}
+    }
+
+
+    //** ВАРИАЦИИ
+
+    &_vert {
+      .fk-smart__row {
+        flex-wrap: wrap;
+
+        div {
+
+          &.left-box,
+          &.right-box {
+            width: 100%;
+            background-size: 100% auto;
+          }
+
+          &.left-box {
+            padding-bottom: 0;
+            background-position: center bottom;
+          }
+
+          &.right-box {
+            background-position: center top;}
+        }
+      }
+    }
+
+    &_left {
+      @media @media_sm_after {
+        & > .container,
+        & > .container-sm,
+        & > .container-lg {
+          margin-left: 0;}
+
+        & > .container {
+          width: 100% - @container_ml;}
+
+        & > .container-sm {
+          width: 100% - @container_ml*2;}
+
+        & > .container-lg {
+          width: 100% - @container_ml/2;}
+      }
+    }
+
+    &_right {
+      @media @media_sm_after {
+        & > .container {
+          width: 100% - @container_ml;}
+
+        & > .container-sm {
+          width: 100% - @container_ml*2;}
+
+        & > .container-lg {
+          width: 100% - @container_ml/2;}
+      }
+    }
+
+
+    //** РАЗМЕРЫ
+
+    &_sm {
+      .fk-smart__row > div {
+        min-height: @smart_sm - @val_lg;}
+    }
+
+    &_md {
+      .fk-smart__row > div {
+        @media @media_sm_after {
+          min-height: @smart_md - @val_lg;}
+      }
+    }
+
+    &_lg {
+      .fk-smart__row > div {
+        @media @media_sm_after {
+          min-height: @smart_lg - @val_lg;}
+      }
+    }
+  }
+
+}

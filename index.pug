@@ -1,0 +1,17 @@
+extends fk/view/global/layout
+
+block content
+    //- include fk/view/index/first
+    include fk/view/index/screen
+    include fk/view/index/text
+    include fk/view/index/tiles
+    include fk/view/index/selectors
+
+
+block variables
+    -
+        var
+            pageTitle        = "FK.new — фронтенд фреймворк",
+            pageDescription  = "Специальная версия. Имеет основные оптимизации и исправленны ошибки в именованиях.",
+            pageName         = "index",
+            siteAddress      = "evg.pro"

@@ -1,0 +1,60 @@
+@import "../../../../direct/var";
+@import "../../../../direct/themes/@{theme}/var";
+
+@import "../../../../direct/themes/@{theme}/fonts";
+@import "../../../../assets/icon-font/icon-font";
+@import "../../mix";
+
+
+// Обозначение иконок
+input[type="checkbox"] {
+  & + label {
+    &:before {
+      content: '\f096';}
+  }
+
+  &:checked + label {
+    &:before {
+      content: '\f14a';}
+  }
+}
+
+input[type="radio"] {
+  & + label {
+    &:before {
+      content: '\f10c';}
+  }
+
+  &:checked + label {
+    &:before {
+      content: '\f192';}
+  }
+}
+
+// Стилизация иконок
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;
+
+  & + label {
+    .font-text-style;
+    .f-left;
+    cursor: pointer;
+
+    &:hover {
+      &:before {
+        color: @clr__color-prim;}
+    }
+
+    &:before {
+      .transition();
+      color: @clr__dark_lighten;
+    }
+  }
+
+  &:checked + label {
+    &:before {
+      color: @clr__color-prim;}
+  }
+
+}

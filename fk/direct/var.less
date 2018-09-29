@@ -1,0 +1,60 @@
+//== ПЕРЕМЕННЫЕ ДВИЖКА
+//
+
+// ##
+// Содержит встроенные переменные фреймворка, и рассчитывает относительные.
+// Относительные переменные указываются в `var.less` темы.
+
+@import "themes/@{theme}/var";
+
+
+//** ТЕКУЩИЕ ТЕМА И ДОМЕН
+
+@theme:                           "perevod";
+@domain:                          "file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru";
+
+
+//## ВЕЛИЧИНЫ
+//
+
+//** ПРОЗРАЧНОСТЬ
+
+@o_xs:                            .9;
+@o_sm:                            .8;
+@o_md:                            .5;
+@o_lg:                            .2;
+
+
+//== АДАПТИВ
+//
+
+//** ТОЧНАЯ ВЫБОРКА РАЗМЕРОВ
+
+@media_mr:                        ~"(max-width: 449px)";
+@media_xs:                        ~"(min-width: 450px) and (max-width: 639px)";
+@media_sm:                        ~"(min-width: 640px) and (max-width: 959px)";
+@media_md:                        ~"(min-width: 960px) and (max-width: 1199px)";
+@media_lg:                        ~"(min-width: 1200px) and (max-width: 1599px)";
+@media_mg:                        ~"(min-width: 1600px) and (max-width: 1999px)";
+@media_mg_s:                      ~"(min-width: 2000px)";
+
+
+//** ВЫБОРКА В ФОРМАТЕ "ДО Х/ПОСЛЕ X"
+
+@media_xs_before:                 ~"(max-width: 449px)"; // xs
+@media_xs_after:                  ~"(min-width: 450px)";
+
+@media_sm_before:                 ~"(max-width: 639px)"; // sm
+@media_sm_after:                  ~"(min-width: 640px)";
+
+@media_md_before:                 ~"(max-width: 959px)"; // md
+@media_md_after:                  ~"(min-width: 960px)";
+
+@media_lg_before:                 ~"(max-width: 1199px)"; // lg
+@media_lg_after:                  ~"(min-width: 1200px)";
+
+@media_mg_before:                 ~"(max-width: 1599px)"; // mg
+@media_mg_after:                  ~"(min-width: 1600px)";
+
+@media_mg_s_before:               ~"(max-width: 1999px)"; // mg_s
+@media_mg_s_after:                ~"(min-width: 2000px)";

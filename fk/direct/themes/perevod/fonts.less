@@ -1,0 +1,98 @@
+@import "var";
+
+@import "../../fonts";
+@import "../../../libry/forker/mix";
+
+//
+//  Стили текста
+//
+
+.font-first-style {
+  .fk-font-title;
+
+  font-weight: 600;
+  line-height: @lh_h;
+  text-transform: uppercase;
+  color: @clr__h;
+}
+
+.font-sec-style {
+  .fk-font-title;
+
+  font-weight: 400;
+  line-height: @lh_h;
+  color: @clr__h;
+}
+
+.font-third-style {
+  .fk-font-title;
+
+  font-weight: 400;
+  line-height: @lh_h;
+  color: @clr__h;
+}
+
+.font-four-style {
+  .fk-font-title;
+
+  font-weight: 600;
+  line-height: @lh_p;
+  text-transform: uppercase;
+  color: @clr__dark;
+}
+
+//
+//  Другой текст
+//
+
+.font-text-style {
+  .fk-font-text;
+
+  font-weight: 400;
+  line-height: @lh_p;
+  color: @clr__p;
+}
+
+.font-title-desc-style {
+  .fk-font-text;
+
+  font-weight: 400;
+  line-height: @lh_p;
+  color: @clr__p;
+  font-size: @fz_lg;
+}
+
+.font-text-bull-style {
+  .fk-font-text;
+
+  font-weight: 400;
+  line-height: @lh_bull;
+  color: @clr__p;
+}
+
+.font-quote-style {
+  .fk-font-text;
+  font-weight: 400;
+  font-style: italic;
+  line-height: @lh_p;
+  color: @clr__p;
+}
+
+.font-input-style { .font-text-style; }
+
+.font-menu-style {
+  .fk-font-title;
+
+  font-weight: 600;
+  text-transform: uppercase;
+  color: @clr__h;
+}
+
+.link-border-mix(@clr: @clr__a) {
+  border-bottom-width: @bw_btn;
+  border-bottom-style: solid;
+  border-bottom-color: fade(@clr, 70);
+
+  &:hover {
+    border-bottom-color: fade(@clr, 30);}
+}

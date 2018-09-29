@@ -1,0 +1,48 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../../../direct/themes/@{theme}/mix";
+
+
+//** НАЛОЖЕНИЕ ЦВЕТА НА БЛОК
+
+.fk-mask {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: 1;
+    background-color: @clr__double-bg;
+  }
+
+  & > div {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+// Модификации
+.fk-mask_white:before { background-color: @clr__light; }
+
+.fk-mask_dark:before  { background-color: @clr__dark; }
+
+.fk-mask_gr:before    { .fk-bg-color-gr; }
+
+.fk-mask_fade:before  { .fk-bg-color-gr_fade; }
+
+.fk-mask_sep:before   { .fk-bg-color-gr_sep(); }
+
+// Интенсивно
+.fk-mask_xs:before { opacity: @o_lg; }
+
+.fk-mask_sm:before { opacity: @o_md; }
+
+.fk-mask_md:before { opacity: @o_sm; }
+
+.fk-mask_lg:before { opacity: @o_xs; }

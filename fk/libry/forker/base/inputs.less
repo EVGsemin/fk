@@ -1,0 +1,36 @@
+@import "../../../../direct/var";
+@import "../../../../direct/themes/@{theme}/var";
+
+@import "../../../../direct/themes/@{theme}/fonts";
+@import "../../../../direct/themes/@{theme}/mix";
+
+
+// Инпуты, селекты
+input:not([type="submit"]),
+input:not([type="checkbox"]),
+input:not([type="radio"]),
+textarea,
+select {
+  .fk-font-text;
+  .transition();
+
+  padding:
+      @p__btn_t - .2em
+      (@p__btn_t - .2em) * 2
+      @p__btn_b - .2em;
+
+  border: @bw_btn solid @clr__light_md;
+  border-radius: @br__btn;
+  font-size: @fz_p;
+
+  &:hover {
+    border-color: fade(@clr__btn_prim, 50);}
+
+  &:focus {
+    .fk-shadow-btn;
+    border-color: @clr__btn_prim;
+  }
+}
+
+select {
+  background-color: @clr__light_md;}

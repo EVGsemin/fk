@@ -1,0 +1,97 @@
+block variables
+
+doctype html
+html(lang='ru')
+    head
+        script(src='fk/assets/js/jquery-3.2.1.min.js')
+
+        //- JQuery
+        meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+        //- МЕТА
+        meta(charset='utf-8')
+        meta(property='twitter:site', content='')
+        meta(property='og:type', content='website')
+
+        //- Заголовок и описание
+        title= pageTitle
+        meta(property='og:title', content= pageTitle)
+        meta(property='twitter:title', content= pageTitle)
+        meta(property='og:description', content= pageDescription)
+        meta(property='twitter:description', content= pageDescription)
+        meta(name='description', content= pageDescription)
+
+        //- Графика
+        meta(property='vk:image', content='fk/assets/web/cover/' + pageName + '/cover.jpg')
+        meta(property='twitter:image', content='fk/assets/web/cover/' + pageName + '/cover.jpg')
+        meta(property='og:image', content='fk/assets/web/cover/' + pageName + '/cover.jpg')
+        link(rel='image_src', href='fk/assets/web/cover/' + pageName + '/cover.jpg')
+        meta(property='og:image:width', content='600')
+        meta(property='og:image:height', content='315')
+
+        //- favicon
+        link(rel='shortcut icon', href='fk/assets/web/favicon/favicon.ico')
+        link(rel='shortcut icon', href='fk/assets/web/favicon/favicon.png', type='image/png')
+        link(rel='icon', type='image/png', href='fk/assets/web/favicon/favicon-180x180.png')
+        link(rel='apple-touch-icon', href='fk/assets/web/favicon/favicon-180x180.png')
+        link(rel='mask-icon', href='fk/assets/web/favicon/favicon.svg', color='#149ce2')
+        meta(property='twitter:card', content='summary_large_image')
+        meta(property='og:site_name', content= siteAddress)
+        meta(property='og:url', content= siteAddress)
+        meta(property='twitter:url', content= siteAddress)
+
+        //- ПРИЛОЖЕНИЯ
+        link(rel='manifest', href='fk/assets/web/manifest.webmanifest')
+        meta(name='theme-color', content='#ffffff')
+        //- Chrome, Firefox OS, Opera
+        meta(name='msapplication-tile-image', content='fk/assets/web/favicon/favicon-150x150.png')
+        //- Windows
+        meta(name='msapplication-navbutton-color', content='#ffffff')
+        //- Windows Phone
+        meta(name='apple-mobile-web-app-status-bar-style', content='#ffffff')
+        //- iOS Safari
+        script(type='application/ld+json').
+            {
+                "@context":    "http://schema.org",
+                "@type":       "Organization",
+                "name":        "FK.new",
+                "telephone":   "+7 (910) 741-45-71",
+                "email":       "example@evg.pro",
+                "url":         "http://evg.pro/",
+                "logo":        "http://evg.pro/forker/assets/web/favicon/favicon-180x180.png",
+                "address" :
+                    [
+                        "@type":             "PostalAddress",
+                        "streetAddress":     "ул. Королева, 2а, корпус 2, офис 503",
+                        "addressLocality":   "г. Белгород",
+                        "addressCountry":    "Россия",
+                        "postalCode":        "308033",
+                    ]
+                "sameAs":
+                    [
+                        "https:\\/\/vk.com\/visavipservice",
+                    ]
+            }
+
+        //- ПОДДЕРЖКА HTML5
+        <!--[if IE 9]>
+        script
+            include html5.js
+        <![endif]-->
+        noscript
+            strong Внимание! Поскольку ваш браузер не поддерживает HTML5, некоторые элементы воспроизводятся с помощью JScript. Однако в вашем браузере скрипты отключены, пожалуйста, включите их, чтобы браузер смог отобразить данную страницу.
+
+        //- Прелоад
+        include ../global/preload/index
+
+    body(class= "page-" + pageName)
+        block content
+
+    //- Подключение скриптов и стилей
+    div(style='display: none;')
+        //- Стили
+        link(rel='stylesheet', href='main.css')
+        //- Скрипты
+        script(src="fk.js")
+        script(src="uk.js")

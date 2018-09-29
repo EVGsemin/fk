@@ -1,0 +1,36 @@
+.fk {
+
+  //** ФОРМАТЫ БЛОКОВ
+
+  &-format {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 50%;
+    }
+
+    & > img {
+      position: absolute;
+      z-index: 1;
+    }
+
+
+    //** ФОРМАТЫ
+
+    // Квадрат
+    &_lg:before { padding-top: 100%; }
+
+    // Средний
+    &_md:before { padding-top: 60%; }
+
+    // Узкий
+    &_xs:before { padding-top: 30%; }
+  }
+
+}

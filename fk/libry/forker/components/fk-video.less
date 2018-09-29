@@ -1,0 +1,58 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../../../direct/themes/@{theme}/mix";
+
+
+.fk-video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: @br_box;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+
+  &&_inverse {
+    &:before {
+      background-color: fade(@clr__light_sm, 80);}
+
+    &:after {
+      border: 4px solid @clr__dark;
+      color: @clr__dark;
+    }
+
+  }
+
+  &_off {
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 50%;
+
+      background-color: fade(@clr__dark, 80);
+    }
+
+    &:after {
+      .transition();
+
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: "fk-icons";
+      content: "\e814";
+      width: 70px; height: 70px;
+      font-size: 50px;
+      line-height: 70px;
+      text-align: center;
+      border-radius: 50px;
+      border: 4px solid @clr__light_sm;
+      color: @clr__light_sm;
+    }
+
+    &:hover:after {
+      border-color: @clr__color-prim;
+      color: @clr__color-prim;
+    }
+  }
+}

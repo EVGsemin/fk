@@ -1,0 +1,98 @@
+@import "var";
+@import "../../../libry/forker/mix";
+
+
+//
+// Фон
+//
+
+.fk-bg-color-inverse { background-color: @clr__dark; }
+.fk-bg-color-inverse_sec { background-color: @clr__dark_darken; }
+
+.fk-bg-color-gr {
+  .bg-gr(
+    @clr_prim: @clr__color-sec;
+    @clr_sec: @clr__dark;
+    @deg: 45deg;
+    @space: 50%;
+  );
+}
+
+.fk-bg-color-gr_fade {
+  .bg-gr(
+    @clr_prim: fade(#fff, 0.1);
+    @clr_sec: @clr__dark;
+    @space: 2%;
+  );
+}
+
+.fk-bg-color-gr_sep(
+  @space: 50%;
+  @clr_prim: @clr__color-sec;
+  @clr_sec: fade(#fff, 0.1) ) {
+
+  .bg-gr(
+    @clr_prim: @clr_sec;
+    @clr_sec: @clr_prim;
+    @deg: 180deg;
+    @space: @space;
+    @sharp: 0%;
+  );
+}
+
+
+//** ТЕНИ
+
+// Для блоков
+.fk-shadow-box {
+  .box-shadow(
+    @width: 0px;
+    @height: 5px;
+    @blur: 25px;
+    @color: fade(@clr__dark, 20%) );
+}
+
+// Для кнопок
+.fk-shadow-btn {
+  .box-shadow(
+    @width: 0px;
+    @height: 5px;
+    @blur: 15px;
+    @color: fade(@clr__dark, 25%) );
+}
+
+//
+// Блоки
+//
+
+.fk-card-style {
+  .transition();
+
+  border: @bw_box solid @clr__light_md;
+  background-color: @clr__light;
+  border-radius: @br_box;
+  box-sizing: border-box;
+}
+
+.fk-card-style_sm {
+  border-width: @bw_btn;
+  border-radius: @br_btn;
+}
+
+.fk-card-style_active {
+  &:hover {
+    .fk-shadow-box();
+    border-color: fade(@clr__color-prim, 50);
+  }
+
+  &:focus {
+    .fk-shadow-btn();
+    border-color: @clr__color-prim;
+  }
+}
+
+//
+// Другие
+//
+
+.fk-rotate { .rotate(@deg: -7deg); }

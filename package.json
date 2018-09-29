@@ -1,0 +1,29 @@
+{
+  "name": "fk.new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "uglify-js": "^3.4.9",
+    "uikit": "^3.0.0-rc.16",
+    "webpack": "^4.19.1",
+    "webpack-merge-and-include-globally": "^2.0.11"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build"              : "webpack",
+    "watch"              : "webpack --watch",
+    "icons-generate"     : "rm node_modules/uikit/custom/icons/*.svg; cp fk/assets/img-icon/icon/*.svg node_modules/uikit/custom/icons; cd node_modules/uikit; yarn run compile; cd ../..; yarn run build",
+    "favicon-generate"   : "cd fk/assets/web/favicon; convert -resize 150 favicon.png favicon-150x150.png; convert -resize 180 favicon.png favicon-180x180.png; convert -resize 192 favicon.png favicon-192x192.png; convert -resize 256 favicon.png favicon-256x256.png; convert favicon.png favicon.ico; convert favicon.png ../../../../favicon.png; convert favicon.png ../../../../favicon.ico",
+    "cover-generate"     : "convert -resize 600 cover.jpg cover.jpg; convert cover.jpg -gravity Center -crop 600x350+0 cover.jpg",
+    "jpg-optim"          : "jpegoptim -m 60 *.jpg --strip-all"
+  }
+}

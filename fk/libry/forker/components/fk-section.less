@@ -1,0 +1,89 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../../../direct/themes/@{theme}/fonts";
+@import "../../../direct/themes/@{theme}/mix";
+@import "../components/fk-text-inverse";
+
+
+.fk {
+
+  //** ТИПОВОЙ ЭКРАН
+
+  &-section {
+    padding-top: @val_lg;
+    padding-bottom: @val_lg;
+
+    &__title {
+      .font-title-desc-style;
+      margin-bottom: @val_lg;
+
+      h2 { margin-top: -4px; }
+
+      &.text-center {
+        p, .ul-menu {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        p, .ul-menu {
+          @media @media_sm_after { max-width: 60%; }
+        }
+      }
+
+      // В малом экране
+      .fk-section_sm & { margin-bottom: @val_md; }
+
+      // В большом экране
+      .fk-section_lg & { margin-bottom: @val_lg; }
+
+      // В мега экране
+      .fk-section_mg & { margin-bottom: @val_mg; }
+
+      .btn-box { margin-top: @val_lg; }
+    }
+
+    .container,
+    .container-sm,
+    .container-lg {
+
+      & > *:last-child {
+        margin-bottom: 0;}
+    }
+
+
+    //** МОДИФИКАЦИИ
+
+    // Малый экран
+    &_sm {
+      padding-top: @val_md;
+      padding-bottom: @val_md;
+    }
+
+    &_lg {
+      padding-top: @val_lg;
+      padding-bottom: @val_lg;
+    }
+
+    &_mg {
+      padding-top: @val_mg;
+      padding-bottom: @val_mg;
+    }
+
+    // Инверсия
+    &_inverse {
+      .fk-bg-color-inverse;
+
+      .fk-section__title-box {
+        .fk-text-inverse;
+      }
+    }
+
+    // Цвета
+    &_light_xs { background-color: @clr__light_xs; }
+    &_light_sm { background-color: @clr__light_sm; }
+    &_light_md { background-color: @clr__light_md; }
+    &_light_lg { background-color: @clr__light_lg; }
+  }
+
+}

@@ -1,0 +1,121 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../../../direct/themes/@{theme}/fonts";
+@import "../mix";
+
+
+// Заголовки
+h1 {
+  margin-top: 0;
+  margin-bottom: @val_md;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: @val_sm;
+}
+
+p {
+  & + h1,
+  & + h2,
+  & + h3,
+  & + h4,
+  & + h5,
+  & + h6 {
+    margin-top: @val_md;}
+}
+
+h1 {
+  .font-first-style;}
+
+h2 {
+  .font-sec-style;}
+
+h3 {
+  .font-third-style;}
+
+h4 {
+  .font-four-style;}
+
+h5 {
+  .font-first-style;}
+
+h6 {
+  .font-sec-style;}
+
+h1 + p,
+h2 + p {
+  .font-title-desc-style;
+  margin-top: 0;
+}
+
+// Простой текст
+p, ul, i {
+  .font-text-style;
+}
+
+textarea,
+input:not([type="submit"]) {
+  .font-input-style;
+}
+
+b, strong {
+  font-weight: 700;}
+
+// Ссылки
+p a {
+  .link-border-mix(@clr__a);}
+
+a:not(.btn) {
+  .transition();
+
+  color: @clr__a;
+  font-family: inherit;
+
+  &:hover {
+    opacity: @o__btn_hover;}
+}
+
+
+//** ИНВЕРСИЯ
+
+.text-inverse {
+  color: @clr__p_inverse;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: @clr__h_inverse;}
+
+
+  //** ПРОСТОЙ ТЕКСТ, СПИСКИ, ССЫЛКИ
+
+  p, b, i, strong {
+    color: @clr__p_inverse;}
+
+  p label {
+    color: @clr__p_inverse;}
+
+  a:not(.btn) {
+    .link-border-mix(@clr__light);
+    color: @clr__light;
+  }
+
+  ul {
+    color: @clr__p_inverse;
+
+    li a:not(.btn) {
+      .link-border-mix(@clr__light);
+      color: @clr__light;
+    }
+  }
+}
+
+
+//** СБРАСЫВАЕМ СТИЛИ БРАУЗЕРА
+
+a {
+  text-decoration: none;
+
+  &:hover, &:focus, &:active {
+    text-decoration: none;}
+}

@@ -1,0 +1,33 @@
+.icon_add(
+  @icon: @i_blue;
+  @width: 20px;
+  @height: 20px;
+  @size: @i_md;
+  @style: @i_normal;
+  @url: @url;
+  @canvas-size) {
+
+  width: (@width * @size) + 6;
+  height: (@height * @size) + 6;
+
+  .icon_size(
+    @icon: @icon;
+    @style: @style;
+    @size: @size;
+    @url: @url;
+    @canvas-size: @canvas-size);
+}
+
+// Считает позицию иконки, ставит фоном
+.icon_size(
+  @icon;
+  @style;
+  @size;
+  @url;
+  @canvas-size) {
+
+  background-image: @url;
+  background-size: (@canvas-size / 16) * @size;
+  background-position-x: (@style * @size) + 3;
+  background-position-y: (@icon * @size) + 3;
+}

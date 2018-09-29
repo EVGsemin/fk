@@ -1,0 +1,187 @@
+//
+// Core
+//
+
+@import "../../../node_modules/uikit/src/less/components/_import.less";
+
+
+// Тема и модули
+// ========================================================================
+
+//
+// UiKit
+//
+
+@import "forker/_import.less";
+
+//
+// forker
+//
+
+@import "../../direct/var";
+@import "../../direct/themes/@{theme}/var";
+
+@import "../../direct/fonts";
+
+
+// Настройки
+// ========================================================================
+
+//
+// Цвета
+//
+
+@global-color:                                  @clr__dark;
+@global-emphasis-color:                         @clr__dark_darken;
+@global-muted-color:                            @clr__dark_lighten;
+
+@global-link-color:                             @clr__a;
+@global-link-hover-color:                       darken(@clr__a, 20);
+
+@global-inverse-color:                          @clr__light;
+@inverse-global-color:                          @clr__p_inverse;
+
+//
+// Фоны
+//
+
+@global-background:                             @clr__light;
+
+@global-muted-background:                       @clr__light_sm;
+@global-primary-background:                     @clr__color-prim;
+@global-secondary-background:                   @clr__color-sec;
+
+@global-success-background:                     #32d296;
+@global-warning-background:                     #faa05a;
+@global-danger-background:                      #f0506e;
+
+//
+// Грани
+//
+
+@global-border-width:                           @bw_box;
+@global-border:                                 @clr__light_sm;
+
+//
+// Box-shadows
+//
+
+@global-small-box-shadow:                       0 2px 8px fade(@clr__dark, 8);
+@global-medium-box-shadow:                      0 5px 15px fade(@clr__dark, 8);
+@global-large-box-shadow:                       0 14px 25px fade(@clr__dark, 16);
+@global-xlarge-box-shadow:                      0 28px 50px fade(@clr__dark, 16);
+
+//
+// Величины
+//
+
+// Используются в марджинах, секциях, списках
+@global-margin:                                 @val_sm;
+@global-small-margin:                           @val_xs;
+@global-medium-margin:                          @val_md;
+@global-large-margin:                           @val_lg;
+@global-xlarge-margin:                          @val_mg_s;
+
+// Используются в сетках, колонках, контейнерах, выравниваниях, карточках, паддингах
+@global-gutter:                                 @global-medium-gutter / 1.333333;
+@global-small-gutter:                           @global-gutter / 2;
+@global-medium-gutter:                          @val_md;
+@global-large-gutter:                           @val_lg;
+
+//
+// Интерктивные элементы
+//
+
+@global-control-height:                         @val_md;
+@global-control-small-height:                   @global-control-height / 1.333333;
+@global-control-large-height:                   @global-control-height * 1.375;
+
+//
+// Шрифты, текст и т.д.
+//
+
+@global-font-family:                            @fk-font-text;
+@global-font-size:                              @fz_browser-def;
+@global-line-height:                            1.5;      // 24px
+
+@global-xxlarge-font-size:                      @fz_h1;
+@global-xlarge-font-size:                       @fz_h2;
+@global-large-font-size:                        @fz_h3;
+@global-medium-font-size:                       @fz_mg_s;
+@global-small-font-size:                        @fz_md;
+
+// Текст
+@base-body-background:                          @global-background;
+@base-body-font-family:                         @global-font-family;
+@base-body-font-weight:                         normal;
+@base-body-font-size:                           @fz_md;
+@base-body-line-height:                         @lh_p;
+@base-body-color:                               @global-color;
+
+// Заголовки
+@base-heading-font-family:                      @fk-font-title;
+@base-heading-font-weight:                      normal;
+@base-heading-color:                            @global-emphasis-color;
+@base-heading-text-transform:                   none;
+@base-heading-margin-top:                       @global-medium-margin;
+
+@base-h1-font-size-m:                           @global-xxlarge-font-size;
+@base-h1-font-size:                             @base-h1-font-size-m * 0.85;
+@base-h1-line-height:                           @lh_h;
+
+@base-h2-font-size-m:                           @global-xlarge-font-size;
+@base-h2-font-size:                             @base-h2-font-size-m * 0.85;
+@base-h2-line-height:                           @lh_h;
+
+@base-h3-font-size:                             @global-large-font-size;
+@base-h3-line-height:                           @lh_h;
+
+@base-h4-font-size:                             @fz_h4;
+@base-h4-line-height:                           @lh_p;
+
+@base-h5-font-size:                             @fz_h5;
+@base-h5-line-height:                           @lh_p;
+
+@base-h6-font-size:                             @fz_h6;
+@base-h6-line-height:                           @lh_p;
+
+// Остальные
+@base-list-padding-left:                        @val_md / 1.333333;
+
+@base-blockquote-font-size:                     @global-medium-font-size;
+@base-blockquote-line-height:                   @lh_p;
+@base-blockquote-font-style:                    italic;
+@base-blockquote-margin-vertical:               @global-margin;
+@base-blockquote-footer-margin-top:             @global-small-margin;
+@base-blockquote-footer-font-size:              @global-small-font-size;
+@base-blockquote-footer-line-height:            @lh_p;
+
+@base-pre-font-size:                            @global-small-font-size;
+@base-pre-line-height:                          @lh_p;
+@base-pre-font-family:                          @base-code-font-family;
+@base-pre-color:                                @global-color;
+
+@base-selection-background:                     @clr__color-prim;
+@base-selection-color:                          @global-inverse-color;
+
+//
+// Графика
+//
+
+@uk-image-url: ~"fk/assets/img-icon/img/uikit";
+
+@internal-form-radio-image:                      "@{uk-image-url}/images/backgrounds/form-radio.svg";
+@internal-accordion-open-image:                  "@{uk-image-url}/images/backgrounds/accordion-open.svg";
+@internal-accordion-close-image:                 "@{uk-image-url}/images/backgrounds/accordion-close.svg";
+@internal-form-select-image:                     "@{uk-image-url}/images/backgrounds/form-select.svg";
+@internal-form-radio-image:                      "@{uk-image-url}/images/backgrounds/form-radio.svg";
+@internal-form-checkbox-image:                   "@{uk-image-url}/images/backgrounds/form-checkbox.svg";
+@internal-form-checkbox-indeterminate-image:     "@{uk-image-url}/images/backgrounds/form-checkbox-indeterminate.svg";
+@internal-nav-parent-close-image:                "@{uk-image-url}/images/backgrounds/nav-parent-close.svg";
+@internal-nav-parent-open-image:                 "@{uk-image-url}/images/backgrounds/nav-parent-open.svg";
+@internal-list-bullet-image:                     "@{uk-image-url}/images/backgrounds/list-bullet.svg";
+@internal-divider-icon-image:                    "@{uk-image-url}/images/backgrounds/divider-icon.svg";
+
+.hook-button {
+  border-radius: @br_btn;
+}

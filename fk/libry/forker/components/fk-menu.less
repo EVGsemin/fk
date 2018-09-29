@@ -1,0 +1,105 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../../../direct/themes/@{theme}/fonts";
+@import "../mix";
+
+
+.fk-menu {
+  padding: 0;
+  margin: 0;
+
+  & > li {
+    .font-menu-style;
+
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -4px;
+    padding-left: @val_xs;
+    padding-right: @val_xs;
+
+    b a:not(.btn) {
+      font-weight: 600 !important;
+    }
+
+    a:not(.btn)   {
+      .font-menu-style;
+    }
+  }
+}
+
+.fk-menu-vert {
+  padding: 0;
+  margin: 0;
+
+  & > li {
+    .font-menu-style;
+    list-style: none;
+
+    b a:not(.btn) {
+      font-weight: 600 !important;
+    }
+
+    a:not(.btn) {
+      .font-menu-style;
+    }
+  }
+}
+
+.fk-menu_inverse {
+  li {
+    color: @clr__light;
+  }
+
+  li a:not(.btn) {
+    color: @clr__light;
+  }
+}
+
+@media @media_sm_before {
+  .fk-menu_respons {
+    .transition();
+
+    li {
+      display: none;
+      text-align: left;
+    }
+
+    &:before {
+      font-family: 'fk-icons';
+      content: '\f0c9';
+      position: absolute;
+      top: -0.6em;
+      font-size: 1.25em;
+      text-transform: none !important;
+    }
+
+    // При наведении
+    &:hover {
+      .fk-shadow-box;
+
+      position: fixed;
+      z-index: 10000;
+      top: 0; bottom: 0;
+      right: 0;
+      width: 80%;
+      padding: 30px;
+      box-sizing: border-box;
+      overflow-y: scroll;
+      background-color: @clr__light;
+
+      li {
+        display: block;
+        line-height: 2em;
+      }
+
+      &:before {
+        display: none;}
+
+      &.fk-menu_inverse {
+        .fk-bg-color-inverse;}
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import "../../../direct/var";
+@import "../../../direct/themes/@{theme}/var";
+
+@import "../components/fk-center";
+@import "../../../direct/icons";
+@import "fk-row";
+
+
+.fk {
+
+  //** ПОЛОСА МЕНЮ
+
+  &-nav-line {
+    left: 0; right: 0;
+    z-index: 100;
+
+    background-color: @clr__light;
+
+    .logo {
+      .i_logo();}
+
+    .fk-row > div {
+      .fk-center-y;
+
+      &:last-child {
+        text-align: right;}
+    }
+
+
+    //** ВАРИАЦИИ
+
+    &_inverse {
+      background-color: @clr__dark;
+
+      div.logo {
+        .i_logo(@style: @i_inverse);}
+    }
+
+
+    //** РАЗМЕРЫ
+
+    &_sm .fk-row > div { height: @val_lg - @val_xs; }
+
+    &_md .fk-row > div { height: @val_lg; }
+
+    &_lg .fk-row > div { height: @val_lg + @val_sm; }
+
+    &_mg .fk-row > div { height: @val_mg_s; }
+
+  }
+
+}

@@ -1,0 +1,145 @@
+//== ЦВЕТА
+//
+
+//** ЦВЕТА БРЕНДА
+
+@clr__color-prim:                 #e91e63;
+@clr__color-sec:                  #3f51b5;
+
+@clr__dark:                       #303c4a;
+@clr__light:                      #fff;
+
+
+//** ОТТЕНКИ
+
+@clr__color-prim_darken:          darken(@clr__color-prim, 20);
+@clr__color-prim_lighten:         lighten(@clr__color-prim, 20);
+
+@clr__color-sec_darken:           darken(@clr__color-sec, 20);
+@clr__color-sec_lighten:          lighten(@clr__color-sec, 20);
+
+@clr__dark_darken:                #101e30;
+@clr__dark_lighten:               lighten(@clr__dark, 20);
+
+@clr__light_xs:                   #FCFDFF;
+@clr__light_sm:                   #F0F5FF;
+@clr__light_md:                   #E2ECFF;
+@clr__light_lg:                   #CAD8F4;
+
+
+//** ГРАДИЕНТ И ШТОРКА
+
+@clr__double-bg:                  @clr__color-prim;
+
+@clr__gr_prim:                    lighten(@clr__color-sec, 30%);
+@clr__gr_sec:                     @clr__color-sec;
+
+
+//== ГРАНИ
+//
+
+// Ширина рамок
+@bw_btn:                          2px;
+@bw_box:                          1px;
+
+@bw_sm:                           @bw_btn / 2;
+@bw_lg:                           @bw_box * 2;
+
+// Радиус
+@br_btn:                          4px;
+@br_box:                          4px;
+
+@br_sm:                           @br_btn / 2;
+@br_lg:                           @br_box * 2;
+
+
+//== ШРИФТЫ
+//
+
+//** РАЗМЕР ШРИФТА
+
+// Фактические размеры
+@fz_h1:                           2.625rem;         // 42px
+@fz_h2:                           2.25rem;          // 36px
+@fz_h3:                           1.75rem;          // 28px
+@fz_h4:                           @fz_mg_s;
+@fz_h5:                           1rem;             // 16px
+@fz_h6:                           @fz_md;
+@fz_p:                            @fz_lg;
+@fz_bull:                         @fz_md;
+@fz_ul:                           @fz_p;
+
+// Стандартный размер <p>
+@fz_mr:                           @fz_md - 0.36;
+@fz_xs:                           @fz_md - 0.24;
+@fz_sm:                           @fz_md - 0.12;
+@fz_md:                           0.875rem;         // 14px
+@fz_lg:                           @fz_md + 0.12;
+@fz_mg:                           @fz_md + 0.24;
+@fz_mg_s:                         @fz_md + 0.36;
+
+// Стандартное значение в браузере
+@fz_browser-def:                  16px;
+
+
+//** ВЫСОТА СТРОКИ/ЦВЕТ
+
+// Цвета
+@clr__h:                          @clr__dark_darken;
+@clr__p:                          fade(@clr__dark_darken, 80);
+
+@clr__h_inverse:                  @clr__light;
+@clr__p_inverse:                  fade(@clr__light, 70);
+
+@clr__a:                          @clr__color-prim;
+@clr__bull:                       @clr__dark;
+
+// Высота строки
+@lh_h:                            1.1;
+@lh_p:                            1.5;
+@lh_bull:                         1.5;
+
+
+//== КНОПКИ
+//
+
+//** ЦВЕТА СТАТИЧНЫЕ
+
+@clr__btn_prim:                   @clr__color-prim;
+@clr__btn-text_prim:              #fff;
+
+@clr__btn_sec:                    @clr__color-sec;
+@clr__btn-text_sec:               #fff;
+
+@clr__btn_third:                  @clr__btn_sec;
+@clr__btn-text_third:             @clr__btn-text_sec;
+
+
+//** ДРУГИЕ НАСТРОЙКИ
+
+@br__btn:                         @br_btn;
+@o__btn_hover:                    1;
+@tt__btn:                         inherit;
+@fw__btn:                         500;
+
+@p__btn_t:                        .8em;
+@p__btn_l-r:                      2.4em;
+@p__btn_b:                        .8em;
+
+
+//== ВЕЛИЧИНЫ
+//
+
+// Относительный отступ
+
+@val_mr:                          @val_sm / 4;            // 5px
+@val_xs:                          @val_sm / 2;            // 10px
+@val_sm:                          20px;
+@val_md:                          @val_sm * 2;            // 40px
+@val_lg:                          (@val_sm * 3.5);        // 70px
+@val_mg:                          @val_sm * 5;            // 100px
+@val_mg_s:                        @val_sm * 7;            // 140px
+
+// Относительная ширина контейнера
+@container:                       82%;
+@container_ml:                    (100-@container) / 2;

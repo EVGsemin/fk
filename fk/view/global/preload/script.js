@@ -1,0 +1,1 @@
+document.querySelector("#fk-preload").innerHTML = "<div><img src='fk/assets/web/favicon/favicon.png'></div>";

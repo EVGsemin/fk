@@ -1,0 +1,29 @@
+section.uk-section.uk-background-muted
+    .uk-container
+        -
+            var
+                className = "uk-child-width-1-2@m uk-grid-small uk-grid-match",
+                content = [
+                    {
+                      "class": "default uk-light",
+                      "h3": "Default",
+                      "p" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                    },
+                    {
+                        "class": "primary",
+                        "h3": "Primary",
+                        "p" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                    },
+                    {
+                        "class": "secondary",
+                        "h3": "Secondary",
+                        "p" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                    }
+                ];
+
+        div(uk-grid class=className)
+            each card in content
+                div
+                    div(class="uk-card uk-card-" + card["class"] + " uk-card-body")
+                        h3.uk-card-title= card["h3"]
+                        p= card["p"]
