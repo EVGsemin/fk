@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-light/dinprocondensed-light.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-light/dinprocondensed-light.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-light/dinprocondensed-light.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-light/dinprocondensed-light.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-light/dinprocondensed-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-lightitalic/dinprocondensed-lightitalic.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-lightitalic/dinprocondensed-lightitalic.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-lightitalic/dinprocondensed-lightitalic.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-lightitalic/dinprocondensed-lightitalic.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-lightitalic/dinprocondensed-lightitalic.svg') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-regular/dinprocondensed-regular.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-regular/dinprocondensed-regular.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-regular/dinprocondensed-regular.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-regular/dinprocondensed-regular.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-regular/dinprocondensed-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-italic/dinprocondensed-italic.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-italic/dinprocondensed-italic.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-italic/dinprocondensed-italic.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-italic/dinprocondensed-italic.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-italic/dinprocondensed-italic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-medium/dinprocondensed-medium.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-medium/dinprocondensed-medium.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-medium/dinprocondensed-medium.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-medium/dinprocondensed-medium.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-medium/dinprocondensed-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-mediumitalic/dinprocondensed-mediumitalic.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-mediumitalic/dinprocondensed-mediumitalic.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-mediumitalic/dinprocondensed-mediumitalic.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-mediumitalic/dinprocondensed-mediumitalic.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-mediumitalic/dinprocondensed-mediumitalic.svg') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-bold/dinprocondensed-bold.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bold/dinprocondensed-bold.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bold/dinprocondensed-bold.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bold/dinprocondensed-bold.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bold/dinprocondensed-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-bolditalic/dinprocondensed-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bolditalic/dinprocondensed-bolditalic.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bolditalic/dinprocondensed-bolditalic.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bolditalic/dinprocondensed-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-bolditalic/dinprocondensed-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-black/dinprocondensed-black.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-black/dinprocondensed-black.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-black/dinprocondensed-black.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-black/dinprocondensed-black.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-black/dinprocondensed-black.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinprocondensed';
+  src: url('fk/assets/fonts/dinprocondensed/dinprocondensed-blackitalic/dinprocondensed-blackitalic.woff2') format('woff2'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-blackitalic/dinprocondensed-blackitalic.woff') format('woff'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-blackitalic/dinprocondensed-blackitalic.eot'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-blackitalic/dinprocondensed-blackitalic.ttf') format('truetype'), url('fk/assets/fonts/dinprocondensed/dinprocondensed-blackitalic/dinprocondensed-blackitalic.svg') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+/*# sourceMappingURL=font.css.map */

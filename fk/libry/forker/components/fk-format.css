@@ -1,0 +1,26 @@
+.fk-format {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.fk-format:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+.fk-format > img {
+  position: absolute;
+  z-index: 1;
+}
+.fk-format_lg:before {
+  padding-top: 100%;
+}
+.fk-format_md:before {
+  padding-top: 60%;
+}
+.fk-format_xs:before {
+  padding-top: 30%;
+}
+/*# sourceMappingURL=fk-format.css.map */

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'pt-serif';
+  src: url('fk/assets/fonts/pt-serif/pt-serif-regular/pt-serif-regular.woff2') format('woff2'), url('fk/assets/fonts/pt-serif/pt-serif-regular/pt-serif-regular.woff') format('woff'), url('fk/assets/fonts/pt-serif/pt-serif-regular/pt-serif-regular.eot'), url('fk/assets/fonts/pt-serif/pt-serif-regular/pt-serif-regular.ttf') format('truetype'), url('fk/assets/fonts/pt-serif/pt-serif-regular/pt-serif-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pt-serif';
+  src: url('fk/assets/fonts/pt-serif/pt-serif-italic/pt-serif-italic.woff2') format('woff2'), url('fk/assets/fonts/pt-serif/pt-serif-italic/pt-serif-italic.woff') format('woff'), url('fk/assets/fonts/pt-serif/pt-serif-italic/pt-serif-italic.eot'), url('fk/assets/fonts/pt-serif/pt-serif-italic/pt-serif-italic.ttf') format('truetype'), url('fk/assets/fonts/pt-serif/pt-serif-italic/pt-serif-italic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'pt-serif';
+  src: url('fk/assets/fonts/pt-serif/pt-serif-bold/pt-serif-bold.woff2') format('woff2'), url('fk/assets/fonts/pt-serif/pt-serif-bold/pt-serif-bold.woff') format('woff'), url('fk/assets/fonts/pt-serif/pt-serif-bold/pt-serif-bold.eot'), url('fk/assets/fonts/pt-serif/pt-serif-bold/pt-serif-bold.ttf') format('truetype'), url('fk/assets/fonts/pt-serif/pt-serif-bold/pt-serif-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pt-serif';
+  src: url('fk/assets/fonts/pt-serif/pt-serif-bolditalic/pt-serif-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/pt-serif/pt-serif-bolditalic/pt-serif-bolditalic.woff') format('woff'), url('fk/assets/fonts/pt-serif/pt-serif-bolditalic/pt-serif-bolditalic.eot'), url('fk/assets/fonts/pt-serif/pt-serif-bolditalic/pt-serif-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/pt-serif/pt-serif-bolditalic/pt-serif-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+/*# sourceMappingURL=font.css.map */

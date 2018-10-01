@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-light/dinpro-light.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-light/dinpro-light.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-light/dinpro-light.eot'), url('fk/assets/fonts/dinpro/dinpro-light/dinpro-light.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-light/dinpro-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-lightitalic/dinpro-lightitalic.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-lightitalic/dinpro-lightitalic.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-lightitalic/dinpro-lightitalic.eot'), url('fk/assets/fonts/dinpro/dinpro-lightitalic/dinpro-lightitalic.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-lightitalic/dinpro-lightitalic.svg') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-regular/dinpro-regular.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-regular/dinpro-regular.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-regular/dinpro-regular.eot'), url('fk/assets/fonts/dinpro/dinpro-regular/dinpro-regular.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-regular/dinpro-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-italic/dinpro-italic.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-italic/dinpro-italic.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-italic/dinpro-italic.eot'), url('fk/assets/fonts/dinpro/dinpro-italic/dinpro-italic.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-italic/dinpro-italic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-medium/dinpro-medium.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-medium/dinpro-medium.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-medium/dinpro-medium.eot'), url('fk/assets/fonts/dinpro/dinpro-medium/dinpro-medium.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-medium/dinpro-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-mediumitalic/dinpro-mediumitalic.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-mediumitalic/dinpro-mediumitalic.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-mediumitalic/dinpro-mediumitalic.eot'), url('fk/assets/fonts/dinpro/dinpro-mediumitalic/dinpro-mediumitalic.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-mediumitalic/dinpro-mediumitalic.svg') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-bold/dinpro-bold.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-bold/dinpro-bold.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-bold/dinpro-bold.eot'), url('fk/assets/fonts/dinpro/dinpro-bold/dinpro-bold.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-bold/dinpro-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-bolditalic/dinpro-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-bolditalic/dinpro-bolditalic.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-bolditalic/dinpro-bolditalic.eot'), url('fk/assets/fonts/dinpro/dinpro-bolditalic/dinpro-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-bolditalic/dinpro-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-black/dinpro-black.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-black/dinpro-black.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-black/dinpro-black.eot'), url('fk/assets/fonts/dinpro/dinpro-black/dinpro-black.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-black/dinpro-black.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dinpro';
+  src: url('fk/assets/fonts/dinpro/dinpro-blackitalic/dinpro-blackitalic.woff2') format('woff2'), url('fk/assets/fonts/dinpro/dinpro-blackitalic/dinpro-blackitalic.woff') format('woff'), url('fk/assets/fonts/dinpro/dinpro-blackitalic/dinpro-blackitalic.eot'), url('fk/assets/fonts/dinpro/dinpro-blackitalic/dinpro-blackitalic.ttf') format('truetype'), url('fk/assets/fonts/dinpro/dinpro-blackitalic/dinpro-blackitalic.svg') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+/*# sourceMappingURL=font.css.map */

@@ -1,0 +1,306 @@
+.font__first {
+  font-family: 'roboto', 'Roboto', sans;
+}
+.font__sec {
+  font-family: 'roboto', 'Roboto', sans;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-thin/roboto-thin.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thin/roboto-thin.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thin/roboto-thin.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thin/roboto-thin.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thin/roboto-thin.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-thinitalic/roboto-thinitalic.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thinitalic/roboto-thinitalic.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thinitalic/roboto-thinitalic.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thinitalic/roboto-thinitalic.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-thinitalic/roboto-thinitalic.svg') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-light/roboto-light.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-light/roboto-light.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-light/roboto-light.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-light/roboto-light.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-light/roboto-light.svg') format('svg');
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-lightitalic/roboto-lightitalic.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-lightitalic/roboto-lightitalic.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-lightitalic/roboto-lightitalic.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-lightitalic/roboto-lightitalic.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-lightitalic/roboto-lightitalic.svg') format('svg');
+  font-weight: light;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-regular/roboto-regular.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-regular/roboto-regular.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-regular/roboto-regular.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-regular/roboto-regular.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-regular/roboto-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-italic/roboto-italic.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-italic/roboto-italic.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-italic/roboto-italic.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-italic/roboto-italic.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-italic/roboto-italic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-medium/roboto-medium.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-medium/roboto-medium.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-medium/roboto-medium.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-medium/roboto-medium.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-medium/roboto-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.svg') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-bold/roboto-bold.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bold/roboto-bold.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bold/roboto-bold.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bold/roboto-bold.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bold/roboto-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-bolditalic/roboto-bolditalic.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bolditalic/roboto-bolditalic.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bolditalic/roboto-bolditalic.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bolditalic/roboto-bolditalic.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-bolditalic/roboto-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-black/roboto-black.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-black/roboto-black.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-black/roboto-black.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-black/roboto-black.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-black/roboto-black.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/forker/fonts/roboto/roboto-blackitalic/roboto-blackitalic.woff2') format('woff2'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-blackitalic/roboto-blackitalic.woff') format('woff'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-blackitalic/roboto-blackitalic.eot'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-blackitalic/roboto-blackitalic.ttf') format('truetype'), url('file:///media/filosof/9016-4EF8/ftp/forker.belworkit.ru/libry/fonts/roboto/roboto-blackitalic/roboto-blackitalic.svg') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+.font-first-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #101e30;
+}
+.font-sec-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #101e30;
+}
+.font-third-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #101e30;
+}
+.h_four {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #303c4a;
+}
+.p_text {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-title-desc-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+  font-size: 16px;
+}
+.font-text-bull-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-quote-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-input-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-menu-style {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #101e30;
+}
+.fk-bg-color-inverse {
+  background-color: #303c4a;
+}
+.fk-bg-color-inverse_sec {
+  background-color: #101e30;
+}
+.fk-bg-color-gr {
+  background: #303c4a;
+  background: -moz-linear-gradient(45deg, #303c4a 50%, #ee933b 100%);
+  background: -webkit-linear-gradient(45deg, #303c4a 50%, #ee933b 100%);
+  background: linear-gradient(45deg, #303c4a 50%, #ee933b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#303c4a, endColorstr=#ee933b, GradientType=1);
+}
+.fk-bg-color-gr_fade {
+  background: #303c4a;
+  background: -moz-linear-gradient(0deg, #303c4a 2%, rgba(255, 255, 255, 0.001) 100%);
+  background: -webkit-linear-gradient(0deg, #303c4a 2%, rgba(255, 255, 255, 0.001) 100%);
+  background: linear-gradient(0deg, #303c4a 2%, rgba(255, 255, 255, 0.001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#303c4a, endColorstr=rgba(255, 255, 255, 0.001), GradientType=1);
+}
+.fk-shadow-box {
+  -webkit-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  -moz-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+}
+.fk-shadow-btn {
+  -webkit-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+}
+.fk-card-style {
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 1px solid #E2ECFF;
+  background-color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.fk-card-style_sm {
+  border-width: 2px;
+  border-radius: 4px;
+}
+.fk-card-style_active:hover {
+  -webkit-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  -moz-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  border-color: rgba(20, 156, 226, 0.5);
+}
+.fk-card-style_active:focus {
+  -webkit-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  border-color: #149ce2;
+}
+.fk-rotate {
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+.ul-menu {
+  padding: 0;
+  margin: 0;
+}
+.ul-menu > li {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #101e30;
+  list-style: none;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: -4px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ul-menu > li a:not(.btn) {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #101e30;
+}
+.ul-menu > li b a:not(.btn) {
+  font-weight: 600 !important;
+}
+.ul-menu-vert {
+  padding: 0;
+  margin: 0;
+}
+.ul-menu-vert > li {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #101e30;
+  list-style: none;
+}
+.ul-menu-vert > li a:not(.btn) {
+  font-family: 'roboto', 'Roboto', sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #101e30;
+}
+.ul-menu-vert > li b a:not(.btn) {
+  font-weight: 600 !important;
+}
+.ul-menu_inverse li {
+  color: #fff;
+}
+.ul-menu_inverse li a:not(.btn) {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .ul-menu_respons {
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .ul-menu_respons li {
+    display: none;
+    text-align: left;
+  }
+  .ul-menu_respons:before {
+    font-family: 'fk-icons';
+    content: '\f0c9';
+    position: absolute;
+    top: -0.6em;
+    font-size: 1.25em;
+    text-transform: none !important;
+  }
+  .ul-menu_respons:hover {
+    -webkit-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+    -moz-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+    box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    background-color: #fff;
+  }
+  .ul-menu_respons:hover li {
+    display: block;
+    line-height: 2em;
+  }
+  .ul-menu_respons:hover:before {
+    display: none;
+  }
+  .ul-menu_respons:hover.ul-menu_inverse {
+    background-color: #303c4a;
+  }
+}
+/*# sourceMappingURL=ul-menu.css.map */

@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-thin/geometria-thin.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-thin/geometria-thin.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-thin/geometria-thin.eot'), url('fk/assets/fonts/geometria/geometria-thin/geometria-thin.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-thin/geometria-thin.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-thinitalic/geometria-thinitalic.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-thinitalic/geometria-thinitalic.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-thinitalic/geometria-thinitalic.eot'), url('fk/assets/fonts/geometria/geometria-thinitalic/geometria-thinitalic.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-thinitalic/geometria-thinitalic.svg') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-extralight/geometria-extralight.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-extralight/geometria-extralight.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-extralight/geometria-extralight.eot'), url('fk/assets/fonts/geometria/geometria-extralight/geometria-extralight.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-extralight/geometria-extralight.svg') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-extralightitalic/geometria-extralightitalic.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-extralightitalic/geometria-extralightitalic.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-extralightitalic/geometria-extralightitalic.eot'), url('fk/assets/fonts/geometria/geometria-extralightitalic/geometria-extralightitalic.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-extralightitalic/geometria-extralightitalic.svg') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-light/geometria-light.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-light/geometria-light.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-light/geometria-light.eot'), url('fk/assets/fonts/geometria/geometria-light/geometria-light.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-light/geometria-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-lightitalic/geometria-lightitalic.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-lightitalic/geometria-lightitalic.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-lightitalic/geometria-lightitalic.eot'), url('fk/assets/fonts/geometria/geometria-lightitalic/geometria-lightitalic.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-lightitalic/geometria-lightitalic.svg') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-regular/geometria-regular.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-regular/geometria-regular.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-regular/geometria-regular.eot'), url('fk/assets/fonts/geometria/geometria-regular/geometria-regular.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-regular/geometria-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-italic/geometria-italic.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-italic/geometria-italic.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-italic/geometria-italic.eot'), url('fk/assets/fonts/geometria/geometria-italic/geometria-italic.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-italic/geometria-italic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-medium/geometria-medium.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-medium/geometria-medium.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-medium/geometria-medium.eot'), url('fk/assets/fonts/geometria/geometria-medium/geometria-medium.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-medium/geometria-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-mediumitalic/geometria-mediumitalic.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-mediumitalic/geometria-mediumitalic.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-mediumitalic/geometria-mediumitalic.eot'), url('fk/assets/fonts/geometria/geometria-mediumitalic/geometria-mediumitalic.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-mediumitalic/geometria-mediumitalic.svg') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-bold/geometria-bold.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-bold/geometria-bold.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-bold/geometria-bold.eot'), url('fk/assets/fonts/geometria/geometria-bold/geometria-bold.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-bold/geometria-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-bolditalic/geometria-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-bolditalic/geometria-bolditalic.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-bolditalic/geometria-bolditalic.eot'), url('fk/assets/fonts/geometria/geometria-bolditalic/geometria-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-bolditalic/geometria-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-extrablack/geometria-extrablack.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-extrablack/geometria-extrablack.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-extrablack/geometria-extrablack.eot'), url('fk/assets/fonts/geometria/geometria-extrablack/geometria-extrablack.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-extrablack/geometria-extrablack.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'geometria';
+  src: url('fk/assets/fonts/geometria/geometria-extrablackitalic/geometria-extrablackitalic.woff2') format('woff2'), url('fk/assets/fonts/geometria/geometria-extrablackitalic/geometria-extrablackitalic.woff') format('woff'), url('fk/assets/fonts/geometria/geometria-extrablackitalic/geometria-extrablackitalic.eot'), url('fk/assets/fonts/geometria/geometria-extrablackitalic/geometria-extrablackitalic.ttf') format('truetype'), url('fk/assets/fonts/geometria/geometria-extrablackitalic/geometria-extrablackitalic.svg') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+/*# sourceMappingURL=font.css.map */

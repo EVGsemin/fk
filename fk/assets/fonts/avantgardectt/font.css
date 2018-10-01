@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'avantgardectt';
+  src: url('fk/assets/fonts/avantgardectt/avantgardectt-regular/avantgardectt-regular.woff2') format('woff2'), url('fk/assets/fonts/avantgardectt/avantgardectt-regular/avantgardectt-regular.woff') format('woff'), url('fk/assets/fonts/avantgardectt/avantgardectt-regular/avantgardectt-regular.eot'), url('fk/assets/fonts/avantgardectt/avantgardectt-regular/avantgardectt-regular.ttf') format('truetype'), url('fk/assets/fonts/avantgardectt/avantgardectt-regular/avantgardectt-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'avantgardectt';
+  src: url('fk/assets/fonts/avantgardectt/avantgardectt-italic/avantgardectt-italic.woff2') format('woff2'), url('fk/assets/fonts/avantgardectt/avantgardectt-italic/avantgardectt-italic.woff') format('woff'), url('fk/assets/fonts/avantgardectt/avantgardectt-italic/avantgardectt-italic.eot'), url('fk/assets/fonts/avantgardectt/avantgardectt-italic/avantgardectt-italic.ttf') format('truetype'), url('fk/assets/fonts/avantgardectt/avantgardectt-italic/avantgardectt-italic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'avantgardectt';
+  src: url('fk/assets/fonts/avantgardectt/avantgardectt-bold/avantgardectt-bold.woff2') format('woff2'), url('fk/assets/fonts/avantgardectt/avantgardectt-bold/avantgardectt-bold.woff') format('woff'), url('fk/assets/fonts/avantgardectt/avantgardectt-bold/avantgardectt-bold.eot'), url('fk/assets/fonts/avantgardectt/avantgardectt-bold/avantgardectt-bold.ttf') format('truetype'), url('fk/assets/fonts/avantgardectt/avantgardectt-bold/avantgardectt-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'avantgardectt';
+  src: url('fk/assets/fonts/avantgardectt/avantgardectt-bolditalic/avantgardectt-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/avantgardectt/avantgardectt-bolditalic/avantgardectt-bolditalic.woff') format('woff'), url('fk/assets/fonts/avantgardectt/avantgardectt-bolditalic/avantgardectt-bolditalic.eot'), url('fk/assets/fonts/avantgardectt/avantgardectt-bolditalic/avantgardectt-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/avantgardectt/avantgardectt-bolditalic/avantgardectt-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+/*# sourceMappingURL=font.css.map */

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-light/opensans-light.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-light/opensans-light.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-light/opensans-light.eot'), url('fk/assets/fonts/opensans/opensans-light/opensans-light.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-light/opensans-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-lightitalic/opensans-lightitalic.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-lightitalic/opensans-lightitalic.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-lightitalic/opensans-lightitalic.eot'), url('fk/assets/fonts/opensans/opensans-lightitalic/opensans-lightitalic.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-lightitalic/opensans-lightitalic.svg') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-regular/opensans-regular.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-regular/opensans-regular.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-regular/opensans-regular.eot'), url('fk/assets/fonts/opensans/opensans-regular/opensans-regular.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-regular/opensans-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-italic/opensans-italic.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-italic/opensans-italic.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-italic/opensans-italic.eot'), url('fk/assets/fonts/opensans/opensans-italic/opensans-italic.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-italic/opensans-italic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-semibold/opensans-semibold.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-semibold/opensans-semibold.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-semibold/opensans-semibold.eot'), url('fk/assets/fonts/opensans/opensans-semibold/opensans-semibold.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-semibold/opensans-semibold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-semibolditalic/opensans-semibolditalic.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-semibolditalic/opensans-semibolditalic.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-semibolditalic/opensans-semibolditalic.eot'), url('fk/assets/fonts/opensans/opensans-semibolditalic/opensans-semibolditalic.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-semibolditalic/opensans-semibolditalic.svg') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-bold/opensans-bold.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-bold/opensans-bold.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-bold/opensans-bold.eot'), url('fk/assets/fonts/opensans/opensans-bold/opensans-bold.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-bold/opensans-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-bolditalic/opensans-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-bolditalic/opensans-bolditalic.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-bolditalic/opensans-bolditalic.eot'), url('fk/assets/fonts/opensans/opensans-bolditalic/opensans-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-bolditalic/opensans-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-extrabold/opensans-extrabold.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-extrabold/opensans-extrabold.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-extrabold/opensans-extrabold.eot'), url('fk/assets/fonts/opensans/opensans-extrabold/opensans-extrabold.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-extrabold/opensans-extrabold.svg') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fk/assets/fonts/opensans/opensans-extrabolditalic/opensans-extrabolditalic.woff2') format('woff2'), url('fk/assets/fonts/opensans/opensans-extrabolditalic/opensans-extrabolditalic.woff') format('woff'), url('fk/assets/fonts/opensans/opensans-extrabolditalic/opensans-extrabolditalic.eot'), url('fk/assets/fonts/opensans/opensans-extrabolditalic/opensans-extrabolditalic.ttf') format('truetype'), url('fk/assets/fonts/opensans/opensans-extrabolditalic/opensans-extrabolditalic.svg') format('svg');
+  font-weight: 800;
+  font-style: italic;
+}
+/*# sourceMappingURL=font.css.map */

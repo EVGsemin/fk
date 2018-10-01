@@ -1,0 +1,65 @@
+.fk-bg-color-inverse {
+  background-color: #303c4a;
+}
+.fk-bg-color-inverse_sec {
+  background-color: #101e30;
+}
+.fk-bg-color-gr {
+  background: #303c4a;
+  background: -moz-linear-gradient(45deg, #303c4a 50%, #3f51b5 100%);
+  background: -webkit-linear-gradient(45deg, #303c4a 50%, #3f51b5 100%);
+  background: linear-gradient(45deg, #303c4a 50%, #3f51b5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#303c4a, endColorstr=#3f51b5, GradientType=1);
+}
+.fk-bg-color-gr_fade {
+  background: #303c4a;
+  background: -moz-linear-gradient(0deg, #303c4a 2%, rgba(255, 255, 255, 0.001) 100%);
+  background: -webkit-linear-gradient(0deg, #303c4a 2%, rgba(255, 255, 255, 0.001) 100%);
+  background: linear-gradient(0deg, #303c4a 2%, rgba(255, 255, 255, 0.001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#303c4a, endColorstr=rgba(255, 255, 255, 0.001), GradientType=1);
+}
+.fk-shadow-box {
+  -webkit-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  -moz-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+}
+.fk-shadow-btn {
+  -webkit-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+}
+.fk-card-style {
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border: 1px solid #E2ECFF;
+  background-color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.fk-card-style_sm {
+  border-width: 2px;
+  border-radius: 4px;
+}
+.fk-card-style_active:hover {
+  -webkit-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  -moz-box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  box-shadow: 0px 5px 25px rgba(48, 60, 74, 0.2);
+  border-color: rgba(233, 30, 99, 0.5);
+}
+.fk-card-style_active:focus {
+  -webkit-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  box-shadow: 0px 5px 15px rgba(48, 60, 74, 0.25);
+  border-color: #e91e63;
+}
+.fk-rotate {
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+/*# sourceMappingURL=mix.css.map */

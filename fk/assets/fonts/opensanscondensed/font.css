@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'opensanscondensed';
+  src: url('fk/assets/fonts/opensanscondensed/opensanscondensed-light/opensanscondensed-light.woff2') format('woff2'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-light/opensanscondensed-light.woff') format('woff'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-light/opensanscondensed-light.eot'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-light/opensanscondensed-light.ttf') format('truetype'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-light/opensanscondensed-light.svg') format('svg');
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'opensanscondensed';
+  src: url('fk/assets/fonts/opensanscondensed/opensanscondensed-lightitalic/opensanscondensed-lightitalic.woff2') format('woff2'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-lightitalic/opensanscondensed-lightitalic.woff') format('woff'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-lightitalic/opensanscondensed-lightitalic.eot'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-lightitalic/opensanscondensed-lightitalic.ttf') format('truetype'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-lightitalic/opensanscondensed-lightitalic.svg') format('svg');
+  font-weight: light;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'opensanscondensed';
+  src: url('fk/assets/fonts/opensanscondensed/opensanscondensed-bold/opensanscondensed-bold.woff2') format('woff2'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-bold/opensanscondensed-bold.woff') format('woff'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-bold/opensanscondensed-bold.eot'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-bold/opensanscondensed-bold.ttf') format('truetype'), url('fk/assets/fonts/opensanscondensed/opensanscondensed-bold/opensanscondensed-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/*# sourceMappingURL=font.css.map */

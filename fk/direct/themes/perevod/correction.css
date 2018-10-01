@@ -1,0 +1,8 @@
+.ul-menu li a:not(.btn) {
+  font-size: 0.875rem;
+}
+.ul-menu_respons:before {
+  top: 0.3em !important;
+  right: 5%;
+}
+/*# sourceMappingURL=correction.css.map */

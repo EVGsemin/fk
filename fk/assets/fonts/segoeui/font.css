@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-light/segoeui-light.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-light/segoeui-light.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-light/segoeui-light.eot'), url('fk/assets/fonts/segoeui/segoeui-light/segoeui-light.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-light/segoeui-light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-regular/segoeui-regular.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-regular/segoeui-regular.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-regular/segoeui-regular.eot'), url('fk/assets/fonts/segoeui/segoeui-regular/segoeui-regular.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-regular/segoeui-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-italic/segoeui-italic.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-italic/segoeui-italic.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-italic/segoeui-italic.eot'), url('fk/assets/fonts/segoeui/segoeui-italic/segoeui-italic.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-italic/segoeui-italic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-semibold/segoeui-semibold.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-semibold/segoeui-semibold.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-semibold/segoeui-semibold.eot'), url('fk/assets/fonts/segoeui/segoeui-semibold/segoeui-semibold.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-semibold/segoeui-semibold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-bold/segoeui-bold.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-bold/segoeui-bold.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-bold/segoeui-bold.eot'), url('fk/assets/fonts/segoeui/segoeui-bold/segoeui-bold.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-bold/segoeui-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-bolditalic/segoeui-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-bolditalic/segoeui-bolditalic.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-bolditalic/segoeui-bolditalic.eot'), url('fk/assets/fonts/segoeui/segoeui-bolditalic/segoeui-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-bolditalic/segoeui-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-black/segoeui-black.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-black/segoeui-black.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-black/segoeui-black.eot'), url('fk/assets/fonts/segoeui/segoeui-black/segoeui-black.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-black/segoeui-black.svg') format('svg');
+  font-weight: black;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'segoeui';
+  src: url('fk/assets/fonts/segoeui/segoeui-blackitalic/segoeui-blackitalic.woff2') format('woff2'), url('fk/assets/fonts/segoeui/segoeui-blackitalic/segoeui-blackitalic.woff') format('woff'), url('fk/assets/fonts/segoeui/segoeui-blackitalic/segoeui-blackitalic.eot'), url('fk/assets/fonts/segoeui/segoeui-blackitalic/segoeui-blackitalic.ttf') format('truetype'), url('fk/assets/fonts/segoeui/segoeui-blackitalic/segoeui-blackitalic.svg') format('svg');
+  font-weight: black;
+  font-style: italic;
+}
+/*# sourceMappingURL=font.css.map */

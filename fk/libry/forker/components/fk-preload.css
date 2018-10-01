@@ -1,0 +1,20 @@
+#fk-preload {
+  transition: opacity .5s;
+}
+#fk-preload div {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999999999;
+  background-color: #fff;
+}
+#fk-preload img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+}
+/*# sourceMappingURL=fk-preload.css.map */

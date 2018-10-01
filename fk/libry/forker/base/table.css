@@ -1,0 +1,156 @@
+.fk-font-title {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+.fk-font-text {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-thin/roboto-thin.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-thin/roboto-thin.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-thin/roboto-thin.eot'), url('fk/assets/fonts/roboto/roboto-thin/roboto-thin.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-thin/roboto-thin.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-thinitalic/roboto-thinitalic.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-thinitalic/roboto-thinitalic.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-thinitalic/roboto-thinitalic.eot'), url('fk/assets/fonts/roboto/roboto-thinitalic/roboto-thinitalic.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-thinitalic/roboto-thinitalic.svg') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-light/roboto-light.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-light/roboto-light.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-light/roboto-light.eot'), url('fk/assets/fonts/roboto/roboto-light/roboto-light.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-light/roboto-light.svg') format('svg');
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-lightitalic/roboto-lightitalic.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-lightitalic/roboto-lightitalic.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-lightitalic/roboto-lightitalic.eot'), url('fk/assets/fonts/roboto/roboto-lightitalic/roboto-lightitalic.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-lightitalic/roboto-lightitalic.svg') format('svg');
+  font-weight: light;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-regular/roboto-regular.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-regular/roboto-regular.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-regular/roboto-regular.eot'), url('fk/assets/fonts/roboto/roboto-regular/roboto-regular.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-regular/roboto-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-italic/roboto-italic.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-italic/roboto-italic.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-italic/roboto-italic.eot'), url('fk/assets/fonts/roboto/roboto-italic/roboto-italic.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-italic/roboto-italic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-medium/roboto-medium.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-medium/roboto-medium.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-medium/roboto-medium.eot'), url('fk/assets/fonts/roboto/roboto-medium/roboto-medium.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-medium/roboto-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.eot'), url('fk/assets/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-mediumitalic/roboto-mediumitalic.svg') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-bold/roboto-bold.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-bold/roboto-bold.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-bold/roboto-bold.eot'), url('fk/assets/fonts/roboto/roboto-bold/roboto-bold.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-bold/roboto-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-bolditalic/roboto-bolditalic.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-bolditalic/roboto-bolditalic.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-bolditalic/roboto-bolditalic.eot'), url('fk/assets/fonts/roboto/roboto-bolditalic/roboto-bolditalic.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-bolditalic/roboto-bolditalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-black/roboto-black.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-black/roboto-black.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-black/roboto-black.eot'), url('fk/assets/fonts/roboto/roboto-black/roboto-black.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-black/roboto-black.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('fk/assets/fonts/roboto/roboto-blackitalic/roboto-blackitalic.woff2') format('woff2'), url('fk/assets/fonts/roboto/roboto-blackitalic/roboto-blackitalic.woff') format('woff'), url('fk/assets/fonts/roboto/roboto-blackitalic/roboto-blackitalic.eot'), url('fk/assets/fonts/roboto/roboto-blackitalic/roboto-blackitalic.ttf') format('truetype'), url('fk/assets/fonts/roboto/roboto-blackitalic/roboto-blackitalic.svg') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+.font-first-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #101e30;
+}
+.font-sec-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #101e30;
+}
+.font-third-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #101e30;
+}
+.font-four-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #303c4a;
+}
+.font-text-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-title-desc-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+  font-size: 16px;
+}
+.font-text-bull-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-quote-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-input-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+.font-menu-style {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #101e30;
+}
+table {
+  font-family: Roboto, roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(16, 30, 48, 0.8);
+}
+td {
+  padding: 0.8em;
+  border: 2px solid #F0F5FF;
+}
+td:last-child {
+  color: rgba(16, 30, 48, 0.5);
+}
+/*# sourceMappingURL=table.css.map */
